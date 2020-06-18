@@ -14,6 +14,7 @@ public class AddUsersStepDefs {
 
     @When("I click on Add Users")
     public void i_click_on_Add_Users() {
+
         usersPage.addUsers.click();
     }
 
